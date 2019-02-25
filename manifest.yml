@@ -26,4 +26,7 @@ dependencies:
   md5: 0ae5f6fbae17cffb087fea4b9518b4f7
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 pre_package: scripts/build.sh
