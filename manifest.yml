@@ -10,6 +10,9 @@ dependencies:
   sha256: 42aa53764e9a44d548dd74823aaf1623f31ce60f88979e14bf636334b6de370d
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 pre_package: scripts/build.sh
 include_files:
 - CHANGELOG
