@@ -24,3 +24,6 @@ dependencies:
   md5: 211c947d4b3729b0f13c18bc1af1e468
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
