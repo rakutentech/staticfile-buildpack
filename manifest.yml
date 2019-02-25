@@ -2,7 +2,7 @@
 language: staticfile
 default_versions:
 - name: nginx
-  version: '1.x'
+  version: 1.x
 exclude_files:
 - ".git/"
 - ".gitignore"
@@ -26,4 +26,7 @@ dependencies:
   md5: 6178c85f0cff4e1e7540890f5d927f0f
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 pre_package: scripts/build.sh
