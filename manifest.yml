@@ -10,6 +10,9 @@ dependencies:
   sha256: a466977f198442172785a9a95239c0f92b796f3335cb9c1efb5e6502db1693dc
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: nginx
   version: 1.15.3
   uri: https://buildpacks.cloudfoundry.org/dependencies/nginx-static/nginx-1.15.3-linux-x64-cflinuxfs3-c27042f7.tgz
