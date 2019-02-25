@@ -10,6 +10,9 @@ dependencies:
   sha256: 79867cf4af979417d23f6f4c83293669a4210c6f9bdb8e2c6550919a84914e61
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: http://nginx.org/download/nginx-1.15.7.tar.gz
 - name: nginx
   version: 1.15.7
