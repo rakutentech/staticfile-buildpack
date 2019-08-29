@@ -10,6 +10,9 @@ dependencies:
   sha256: d52563a2448cf7cca1ca685bde33515ccfbd96eaa130331c141095b1b48ae028
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: http://nginx.org/download/nginx-1.15.12.tar.gz
   source_sha256: 3d5b90aa17de1700709ae4ec6c4d73d87c888b06c510391bf7104b006fdb2abe
 - name: nginx
@@ -26,6 +29,9 @@ dependencies:
   sha256: c8f18d903eb001ff7a9c05740b325a855df925b3fee7ce180d8a4cfea4b364eb
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: http://nginx.org/download/nginx-1.17.3.tar.gz
   source_sha256: 3b84fe1c2cf9ca22fde370e486a9ab16b6427df1b6ea62cdb61978c9f34d0f3c
 - name: nginx
